@@ -1,0 +1,80 @@
+.cell {
+
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 1px black solid;
+    border-radius: 200px;
+    background: rgb(158, 215, 222);
+
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+table{
+    justify-content: center;
+}
+
+#whoPlay{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+
+#textWhoPlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-image: url(../image/fond-style-grunge-texture-beton_1048-4784.jpg);
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+#pannel{
+    background-color: rgb(72, 207, 225);
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    margin-left: 20px;
+    height: min-content;
+    width: 15vw;
+    padding: 5px;
+    justify-content: center;
+    text-align: center;
+}
+
+.cell:hover {
+    background-color: rgb(225, 225, 225);
+}
+
+#board {
+    display: flex;
+    box-shadow: 0px 0px 10px 10px rgb(0, 0, 0);
+    width: min-content;
+    background-color: rgb(98, 98, 231);
+}
+
+
+.column {
+    border: 1px solid black;
+}
